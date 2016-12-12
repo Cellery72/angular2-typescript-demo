@@ -1,0 +1,35 @@
+/* --   JUMBOTRON  -- */
+/* ------------------ */
+
+
+/* -- TECHNOLOGIES -- */
+/* ------------------ */
+.technology {
+    text-align: center;
+    margin-top: 50px;
+    padding: 0px 75px 100px 75px;
+}
+.technology h2{
+    text-decoration: underline;
+}
+.technology img {
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#break {
+    margin-top: 10px;
+}
+.customBtn{
+    color: #40146A !important;
+    border-color: #40146A !important;
+}
+.customBtn:hover{
+    background-color: #40146A !important;
+    color:white !important;
+}
+.customBtn:focus{
+    background-color: #40146A !important;
+    color:white !important;
+}

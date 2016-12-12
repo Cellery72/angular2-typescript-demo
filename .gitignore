@@ -1,0 +1,11 @@
+app/**/*.js
+app/**/*.map
+node_modules
+jspm_packages
+bower_components
+.idea/
+.vscode/
+build/
+typings/
+*.log
+config.js

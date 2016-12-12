@@ -1,0 +1,29 @@
+<div id="main-wrapper">
+	<header id="header">
+		<nav class="navbar navbar-fixed-top navbar-dark bg-primary">
+			<div class="nav navbar-nav">
+				<div class="pull-xs-right" id="social">
+					<a class="nav-item nav-link" target="_blank" href="https://ca.linkedin.com/"><i class="fa fa-linkedin fa-lg"></i></a>
+					<a class="nav-item nav-link" target="_blank" href="https://facebook.com/"><i class="fa fa-github fa-lg"></i></a>
+					<a class="nav-item nav-link" target="_blank" href="https://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+					<a class="nav-item nav-link" target="_blank" href="https://facebook.com/"><i class="fa fa-facebook fa-lg"></i></a>
+				</div>
+				<a class="nav navbar-brand" [routerLinkActive]="['active']" [routerLink]="['/home']">Angular 2 Demo Application</a>
+				<div class="pull-xs-left">
+					<a class="nav-item nav-link" [routerLinkActive]="['active']" [routerLink]="['/home']">Home</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="content">
+		<router-outlet></router-outlet>
+		<div class="spacer">
+			<br>
+		</div>
+	</div>
+	<footer id="footer">
+		<p class="text-xs-right">
+			Advanced Web - Georgian College &copy; 2016
+		</p>
+	</footer>
+</div>
